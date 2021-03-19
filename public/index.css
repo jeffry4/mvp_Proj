@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgba(69, 161, 214, 0.568);
+    font-family: 'Berkshire Swash', cursive;
+    
+  }
+  
+
+ .btn {
+  border-radius: 5px;
+  box-shadow: slategrey;
+  position:inherit;
+  padding: 3%;
+  margin: 1%;
+  justify-content: space-around;
+
+    }
+ .main{
+     display: flex;
+     justify-content:center;
+ }
+ 
+    .search{
+        flex: 1;
+        color: snow;
+        align-items: stretch;
+
+    }
+
+    .contain{
+        flex: 4;
+        padding: 2%;
+        margin: 2%;
+        background-color: slategrey;
+        overflow-y: auto;
+        overflow-x: auto;
+
+    }
+    
+    .reply{
+        background-color: slategray;
+    }
